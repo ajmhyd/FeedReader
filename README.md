@@ -4,9 +4,9 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 ## Table of Contents
 
-* [Why this Project](#Why-this-Project)
-* [What will I learn](#What-will-I-learn)
-* [How will this help my career](#How-will-this-help-my-career)
+* [Why this Project?](#Why-this-Project)
+* [What will I learn?](#What-will-I-learn)
+* [How will this help my career?](#How-will-this-help-my-career)
 * [Instructions](#Instructions)
 * [References](#References)
 
