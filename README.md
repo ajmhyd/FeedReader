@@ -35,5 +35,5 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 
 ## References
 
-[Jasmine](https://jasmine.github.io/)
-[Jasmine cheatsheet](https://devhints.io/jasmine)
+* [Jasmine](https://jasmine.github.io/)
+* [Jasmine cheatsheet](https://devhints.io/jasmine)
