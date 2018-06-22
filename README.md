@@ -5,8 +5,9 @@ In this project you are given a web-based application that reads RSS feeds. The 
 ## Table of Contents
 
 * [Why this Project](#Why-this-Project)
+* [What will I learn](#What-will-I-learn)
+* [How will this help my career](#How-will-this-help-my-career)
 * [Instructions](#Instructions)
-* [Dependencies](#Dependencies)
 * [References](#References)
 
 
@@ -27,3 +28,12 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 * Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
 * Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
+## Instructions
+
+1. Download the zip or clone from [Github](https://github.com/ajmhyd/FeedReader.git).
+2. Open the index.html file in a browser.
+
+## References
+
+[Jasmine](https://jasmine.github.io/)
+[Jasmine cheatsheet](https://devhints.io/jasmine)

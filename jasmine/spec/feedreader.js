@@ -8,11 +8,11 @@
  * since some of these tests may require DOM elements. We want
  * to ensure they don't run until the DOM is ready.
  */
-$(function() {
+$(function () {
     /* This is our first test suite - a test suite just contains
-    * a related set of tests. This suite is all about the RSS
-    * feeds definitions, the allFeeds variable in our application.
-    */
+     * a related set of tests. This suite is all about the RSS
+     * feeds definitions, the allFeeds variable in our application.
+     */
     describe('RSS Feeds', () => {
         /* This is our first test - it tests to make sure that the
          * allFeeds variable has been defined and that it is not
@@ -61,16 +61,16 @@ $(function() {
         it('is hidden by default', () => {
             expect(document.body.classList.contains('menu-hidden')).toBe(true);
         });
-         /* TODO: Write a test that ensures the menu changes
-          * visibility when the menu icon is clicked. This test
-          * should have two expectations: does the menu display when
-          * clicked and does it hide when clicked again.
-          */
+        /* TODO: Write a test that ensures the menu changes
+         * visibility when the menu icon is clicked. This test
+         * should have two expectations: does the menu display when
+         * clicked and does it hide when clicked again.
+         */
         it('changes visibility when the icon is clicked', () => {
             $('.menu-icon-link').click();
             expect($('body').hasClass('menu-hidden')).toBe(false);
             $('.menu-icon-link').click();
-            expect($('body').hasClass('menu-hidden')).toBe(true);       
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         });
     });
     /* TODO: Write a new test suite named "Initial Entries" */
@@ -97,7 +97,7 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
         let oldURL = '';
-        
+
         beforeEach((done) => {
             oldURL = $('.entry-link').attr('href');
             loadFeed(1, done);
