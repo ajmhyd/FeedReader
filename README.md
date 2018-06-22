@@ -4,7 +4,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 ## Table of Contents
 
-* [Why](#Why this Project)
+* [Why this Project](#Why-this-Project)
 * [Instructions](#Instructions)
 * [Dependencies](#Dependencies)
 * [References](#References)
