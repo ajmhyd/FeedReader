@@ -77,9 +77,8 @@ $(function () {
             loadFeed(0, done);
         });
 
-        it('has at least a single entry within the feed container', (done) => {
+        it('has at least a single entry within the feed container', () => {
             expect($('.feed .entry').length).toBeGreaterThan(0);
-            done();
         });
     });
     /* New Feed Selection test suite */
